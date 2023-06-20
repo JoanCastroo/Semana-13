@@ -41,3 +41,62 @@ int main()
     printf("Carrera: ");
     puts(alumno1.carrera);
     printf("Promedio: %.2f\n", alumno1.promedio);
+    
+    // Ingresar datos para alumno2
+    printf("\nIngrese los datos para el alumno 2:\n");
+    printf("Ingrese la matrícula: ");
+    scanf("%d", &alumno2.matriculas);
+    fflush(stdin);
+    
+    printf("Ingrese el nombre: ");
+    gets(alumno2.nombre);
+    
+    printf("Ingrese la dirección: ");
+    gets(alumno2.direccion);
+    
+    printf("Ingrese la carrera: ");
+    gets(alumno2.carrera);
+    
+    printf("Ingrese el promedio: ");
+    scanf("%f", &alumno2.promedio);
+    
+    printf("\nDatos del alumno 2:\n");
+    printf("Matrícula: %d\n", alumno2.matriculas);
+    printf("Nombre: ");
+    puts(alumno2.nombre);
+    printf("Dirección: ");
+    puts(alumno2.direccion);
+    printf("Carrera: ");
+    puts(alumno2.carrera);
+    printf("Promedio: %.2f\n", alumno2.promedio);
+    
+    // Ingresar datos para alumno3
+    printf("\nIngrese los datos para el alumno 3:\n");
+    printf("Ingrese la matrícula: ");
+    scanf("%d", &alumno3.matriculas);
+    fflush(stdin);
+    
+    printf("Ingrese el nombre: ");
+    gets(alumno3.nombre);
+    
+    printf("Ingrese la dirección: ");
+    gets(alumno3.direccion);
+    
+    printf("Ingrese la carrera: ");
+    gets(alumno3.carrera);
+    
+    printf("Ingrese el promedio: ");
+    scanf("%f", &alumno3.promedio);
+    
+    printf("\nDatos del alumno 3:\n");
+    printf("Matrícula: %d\n", alumno3.matriculas);
+    printf("Nombre: ");
+    puts(alumno3.nombre);
+    printf("Dirección: ");
+    puts(alumno3.direccion);
+    printf("Carrera: ");
+    puts(alumno3.carrera);
+    printf("Promedio: %.2f\n", alumno3.promedio);
+    
+    return 0;
+}
