@@ -30,5 +30,17 @@ int main()
     printf("Ingrese el promedio: ");
     scanf("%f", &alumno1.promedio);
     
+    printf("\nDatos del alumno:\n");
+    printf("Matrícula: %d\n", alumno1.matriculas);
+    printf("Nombre: ");
+    puts(alumno1.nombre);
+    printf("Dirección: ");
+    puts(alumno1.direccion);
+    printf("Carrera: ");
+    puts(alumno1.carrera);
+    printf("Promedio: %.2f\n", alumno1.promedio);
+    
+    return 0;
 }
+
 
