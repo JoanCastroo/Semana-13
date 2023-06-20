@@ -12,11 +12,13 @@ struct persona
 
 int main()
 {
-    struct persona alumno1;
+    struct persona alumno1, alumno2, alumno3;
     
+    // Ingresar datos para alumno1
+    printf("Ingrese los datos para el alumno 1:\n");
     printf("Ingrese la matrícula: ");
     scanf("%d", &alumno1.matriculas);
-    fflush(stdin); 
+    fflush(stdin);
     
     printf("Ingrese el nombre: ");
     gets(alumno1.nombre);
@@ -30,7 +32,7 @@ int main()
     printf("Ingrese el promedio: ");
     scanf("%f", &alumno1.promedio);
     
-    printf("\nDatos del alumno:\n");
+    printf("\nDatos del alumno 1:\n");
     printf("Matrícula: %d\n", alumno1.matriculas);
     printf("Nombre: ");
     puts(alumno1.nombre);
@@ -39,8 +41,3 @@ int main()
     printf("Carrera: ");
     puts(alumno1.carrera);
     printf("Promedio: %.2f\n", alumno1.promedio);
-    
-    return 0;
-}
-
-
