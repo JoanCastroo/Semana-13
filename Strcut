@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+
+struct persona
+{
+    int matriculas;
+    char nombre[20];
+    char direccion[50];
+    char carrera[25];
+    float promedio;
+};
+
+int main()
+{
+    struct persona alumno1;
+    
+    printf("Ingrese la matrícula: ");
+    scanf("%d", &alumno1.matriculas);
+    fflush(stdin); 
+    
+    printf("Ingrese el nombre: ");
+    gets(alumno1.nombre);
+    
+    printf("Ingrese la dirección: ");
+    gets(alumno1.direccion);
+    
+    printf("Ingrese la carrera: ");
+    gets(alumno1.carrera);
+    
+    printf("Ingrese el promedio: ");
+    scanf("%f", &alumno1.promedio);
+    
+}
+
